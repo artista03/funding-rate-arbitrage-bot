@@ -17,4 +17,4 @@ schedule==1.2.0
 loguru==0.7.0
 
 # 監視・通知
-telegram-send==0.37
+python-telegram-bot==20.3
