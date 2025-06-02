@@ -9,7 +9,7 @@ from solana.rpc.api import Client
 from solders.keypair import Keypair
 from anchorpy import Provider, Wallet
 from solana.rpc.types import TxOpts
-from solana.publickey import PublicKey
+from solders.pubkey import Pubkey as PublicKey
 import base58
 
 class DriftClient:
