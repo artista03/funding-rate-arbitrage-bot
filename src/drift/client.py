@@ -6,7 +6,7 @@ import json
 import time
 from loguru import logger
 from solana.rpc.api import Client
-from solana.keypair import Keypair
+from solders.keypair import Keypair
 from anchorpy import Provider, Wallet
 from solana.rpc.types import TxOpts
 from solana.publickey import PublicKey
