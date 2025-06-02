@@ -18,3 +18,6 @@ schedule==1.2.0
 loguru==0.7.0
 
 # 監視・通知
+
+base58
+
