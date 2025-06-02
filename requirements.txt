@@ -1,6 +1,7 @@
 # Drift Protocol関連
-solana==0.25.0
+solana==0.30.2
 anchorpy==0.18.0
+solders==0.18.1
 pyserum==0.5.0a0
 
 # Bybit API関連
