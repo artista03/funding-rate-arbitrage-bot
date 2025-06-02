@@ -1,0 +1,41 @@
+# Render.com用設定ファイル
+
+# ビルド設定
+buildCommand: pip install -r requirements.txt
+startCommand: python -m src.bot
+
+# 環境変数
+envVars:
+  - key: SOLANA_PRIVATE_KEY_PATH
+    value: /etc/secrets/solana_keypair.json
+    isSecret: true
+  - key: SOLANA_RPC_URL
+    value: https://api.mainnet-beta.solana.com
+  - key: BYBIT_API_KEY
+    value: 
+    isSecret: true
+  - key: BYBIT_API_SECRET
+    value: 
+    isSecret: true
+  - key: BYBIT_TESTNET
+    value: false
+  - key: POSITION_SIZE_USD
+    value: 100
+  - key: MAX_POSITION_SIZE_USD
+    value: 200
+  - key: FUNDING_RATE_THRESHOLD
+    value: 0.01
+  - key: PRICE_DEVIATION_THRESHOLD
+    value: 1.5
+  - key: BALANCE_ADJUSTMENT_THRESHOLD
+    value: 10
+  - key: CHECK_INTERVAL_SECONDS
+    value: 3600
+  - key: LOG_LEVEL
+    value: INFO
+  - key: TELEGRAM_BOT_TOKEN
+    value: 
+    isSecret: true
+  - key: TELEGRAM_CHAT_ID
+    value: 
+    isSecret: true

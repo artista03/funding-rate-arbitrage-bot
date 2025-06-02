@@ -1,0 +1,20 @@
+# Drift Protocol関連
+solana==0.30.2
+anchorpy==0.18.0
+pyserum==0.5.0
+
+# Bybit API関連
+pybit==2.4.1
+ccxt==3.1.54
+
+# 共通ユーティリティ
+python-dotenv==1.0.0
+requests==2.31.0
+websocket-client==1.6.1
+pandas==2.0.3
+numpy==1.24.3
+schedule==1.2.0
+loguru==0.7.0
+
+# 監視・通知
+telegram-send==0.37
